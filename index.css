@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    background-color: transparent;
+    height: 100px;
+    display: flex ;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+.logo img{
+    width: 200px;
+}
+.navlist{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 14px;
+}
+.navlist a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+}
+.navlist a:hover{
+    text-decoration: underline;
+}
+.otherlinks{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 14px;
+}
+.otherlinks a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menubtn{
+    font-size: 25px;
+}
+.projects{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}.container msg{
+    position: relative;
+    top: 330px;
+    padding: 70px;
+    text-shadow: 0 0 2px #555;
+}
+.one{
+    background-image: url("images/img1.jpg");
+    background-position:center;
+    background-size:cover ;
+}
+.msg{
+    position: relative;
+    top: 330px;
+    padding: 70px;
+    text-shadow: 0 0 2px #555;
+}
+.heading{
+    font-size: 20px;
+}
+.title{
+    font-size: 48px;
+    height: 120px;
+    text-transform: uppercase;
+    
+}
+.btn{
+    
+    width: 100px;
+    height: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0;
+    transition: 0.5s;
+    margin-top: 5px;
+    text-shadow: 0 0 2px #555;
+    border: 2px solid white;
+}
+.btn:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    text-shadow: none;
+}
+.two{
+    background-image: url("images/img2.jpg");
+    background-position: center;
+    background-size:cover ;
+}
+.three{
+    background-image: url("images/img3.jpg");
+    background-position: center;
+    background-size:cover ;
+}
+.four{
+    background-image: url("images/img4.jpg");
+    background-position: center;
+    background-size:cover ;
+}
+.five{
+    background-image: url("images/img5.jpg");
+    background-position: center;
+    background-size:cover ;
+}
+.foot{
+    background-color: black;
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
